@@ -1,0 +1,7 @@
+{
+  "project_name": "___PROJECT_NAME___",
+  "project_platform": [
+    "unspecified"
+  ],
+  "project_dir": "./{{cookiecutter.project_name}}"
+}
