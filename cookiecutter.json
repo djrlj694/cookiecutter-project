@@ -5,8 +5,8 @@
     "Cookiecutter"
   ],
   "project_dir": "./{{cookiecutter.project_name}}",
-  "project_date": "{% now 'local', ' % b % d, % Y' %}",
-  "project_year": "{% now 'local', ' % Y' %}",
+  "project_date": "{% now 'local', '%b %d, %Y' %}",
+  "project_year": "{% now 'local', '%Y' %}",
   "lead_name": "___LEAD_NAME___",
   "_extensions": [
     "jinja2_time.TimeExtension"
