@@ -1,0 +1,5 @@
+{
+  "project_name": "___PROJECT_NAME___",
+  "project_dir": "{% raw %}{{cookiecutter.project_name | replace(' ', '-') | replace('_', '-') | lower}}{% endraw %}",
+  "lead_name": "___LEAD_NAME___"
+}
