@@ -3,5 +3,6 @@
   "project_platform": [
     "unspecified"
   ],
-  "project_dir": "./{{cookiecutter.project_name}}"
+  "project_dir": "./{{cookiecutter.project_name}}",
+  "lead_name": "___LEAD_NAME___"
 }
