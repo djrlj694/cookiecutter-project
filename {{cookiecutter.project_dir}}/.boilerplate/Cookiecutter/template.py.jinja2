@@ -11,18 +11,20 @@ import sys
 # METADATA
 # =========================================================================== #
 
+
 __author__ = '{{cookiecutter.lead_name}}'
 __credits__ = ['{{cookiecutter.lead_name}}']
 
-__copyright__ = 'Copyright {% now 'local', ' % Y' %}, {{cookiecutter.project_name}}'
+__copyright__ = 'Copyright {{cookiecutter.project_year}}, {{cookiecutter.project_name}}'
 
-__created_date__ = '{% now 'local', ' % b % d, % Y' %}'
-__modified_date__ = '{% now 'local', ' % b % d, % Y' %}'
+__created_date__ = '{{cookiecutter.project_date}}'
+__modified_date__ = '{{cookiecutter.project_date}}'
 
 
 # =========================================================================== #
 # CONSTANTS
 # =========================================================================== #
+
 
 # -- Debugging -- #
 
@@ -33,7 +35,9 @@ DEBUG = True
 # FUNCTIONS
 # =========================================================================== #
 
+
 # -- Main Program -- #
+
 
 def main():
     """
@@ -47,13 +51,17 @@ def main():
 # MAIN EXECUTION
 # =========================================================================== #
 
+
 # -- Main Execution -- #
+
 
 # If this module is in the main module, call the main() function.
 if __name__ == '__main__':
     main()
 
+
 # -- Housekeeping -- #
+
 
 # Exit the program normally.
 sys.exit(0)
