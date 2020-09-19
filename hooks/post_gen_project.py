@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import os
 import sys
 
 
@@ -13,7 +14,7 @@ __copyright__ = 'Copyright 2020, Cookiecutter Make'
 __license__ = 'MIT'
 
 __created_date__ = 'Sep 15, 2020'
-__modified_date__ = 'Sep 15, 2020'
+__modified_date__ = 'Sep 19, 2020'
 
 
 # =========================================================================== #
@@ -29,6 +30,27 @@ DEBUG = True
 # FUNCTIONS
 # =========================================================================== #
 
+# -- Shell -- #
+
+def cmd(*args):
+    os.system(' '.join(args))
+
+
+def mv(*args):
+    cmd('mv', *args)
+
+
+def rm(*args):
+    cmd('rm -rf', *args)
+
+
+def rename():
+    cmd1 = 'for f in $(find . -type f -name "*.jinja2")'
+    cmd2 = 'do mv -- "$f" "${f%.jinja2}"'
+    cmd3 = 'done'
+    cmd(cmd1, ';', cmd2, ';', cmd3)
+
+
 # -- Main Program -- #
 
 def main():
@@ -37,6 +59,11 @@ def main():
     """
 
     print('DEBUG =', DEBUG)
+
+    mv('.boilerplate/Cookiecutter/*', '.')
+    rm('.boilerplate')
+    rm('template.*.jinja2')
+    rename()
 
 
 # =========================================================================== #
