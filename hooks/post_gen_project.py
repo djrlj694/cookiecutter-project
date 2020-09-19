@@ -7,6 +7,7 @@ import sys
 # METADATA
 # =========================================================================== #
 
+
 __author__ = 'Robert (Bob) L. Jones'
 __credits__ = ['Robert (Bob) L. Jones']
 
@@ -21,16 +22,27 @@ __modified_date__ = 'Sep 19, 2020'
 # CONSTANTS
 # =========================================================================== #
 
+
 # -- Debugging -- #
 
+
 DEBUG = True
+
+
+# -- Input -- #
+
+
+# Project
+PROJECT_PLATFORM = '{{cookiecutter.project_platform}}'
 
 
 # =========================================================================== #
 # FUNCTIONS
 # =========================================================================== #
 
+
 # -- Shell -- #
+
 
 def cmd(*args):
     os.system(' '.join(args))
@@ -53,6 +65,7 @@ def rename():
 
 # -- Main Program -- #
 
+
 def main():
     """
     Run the main set of functions that define the program.
@@ -60,7 +73,7 @@ def main():
 
     print('DEBUG =', DEBUG)
 
-    mv('.boilerplate/Cookiecutter/*', '.')
+    mv(f'.boilerplate/{PROJECT_PLATFORM}/* .')
     rm('.boilerplate')
     rm('template.*.jinja2')
     rename()
@@ -70,13 +83,17 @@ def main():
 # MAIN EXECUTION
 # =========================================================================== #
 
+
 # -- Main Execution -- #
+
 
 # If this module is in the main module, call the main() function.
 if __name__ == '__main__':
     main()
 
+
 # -- Housekeeping -- #
+
 
 # Exit the program normally.
 sys.exit(0)
