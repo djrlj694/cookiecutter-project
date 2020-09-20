@@ -15,10 +15,10 @@ import sys
 __author__ = '{{cookiecutter.lead_name}}'
 __credits__ = ['{{cookiecutter.lead_name}}']
 
-__copyright__ = 'Copyright {{cookiecutter.project_year}}, {{cookiecutter.project_name}}'
+__copyright__ = 'Copyright {% now 'local', '%Y' %}, {{cookiecutter.project_name}}'
 
-__created_date__ = '{{cookiecutter.project_date}}'
-__modified_date__ = '{{cookiecutter.project_date}}'
+__created_date__ = '{% now 'local', '%b %d, %Y' %}'
+__modified_date__ = '{% now 'local', '%b %d, %Y' %}'
 
 
 # =========================================================================== #
