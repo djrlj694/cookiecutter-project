@@ -10,6 +10,7 @@
   "project_date": "{% now 'local', '%b %d, %Y' %}",
   "project_year": "{% now 'local', '%Y' %}",
   "lead_name": "___LEAD_NAME___",
+  "team_name": "___TEAM_NAME___",
   "_extensions": [
     "jinja2_time.TimeExtension"
   ]
