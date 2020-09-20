@@ -2,7 +2,8 @@
   "project_name": "___PROJECT_NAME___",
   "project_platform": [
     "unspecified",
-    "Cookiecutter"
+    "Cookiecutter",
+    "Python"
   ],
   "project_dir": "./{{cookiecutter.project_name}}",
   "project_date": "{% now 'local', '%b %d, %Y' %}",
