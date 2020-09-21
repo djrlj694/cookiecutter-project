@@ -1,10 +1,9 @@
-{% set date = now 'local', '%d%b%Y' -%}
 # Copyright © {% now 'local', '%Y' %} {{cookiecutter.team_name}}. All rights reserved.
 # =========================================================================== #
 # PROGRAM: Makefile
 # AUTHORS: {{cookiecutter.lead_name}}
-# CREATED: {{date|upper}}
-# REVISED: {{date|upper}}
+# CREATED: {{strftime('%d%b%Y', now)|upper}}
+# REVISED: {{strftime('%d%b%Y', now)|upper}}
 # =========================================================================== #
 
 
