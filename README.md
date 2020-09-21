@@ -1,6 +1,6 @@
 # Cookiecutter Project
 
-A "cookiecutter" for generating software platform boilerplate.
+A "cookiecutter" for generating software project boilerplate.
 
 ## Introduction
 
@@ -11,7 +11,7 @@ A "cookiecutter" for generating software platform boilerplate.
 
 They can also facilitate, both manually and automatically, the run-time customization of the generated names and content.
 
-The cookiecutter presented here, Cookiecutter Project, defines boilerplate templates for creating platform-focused software projects, where "platform" here loosely means a programming language (Python, Swift, etc.), file format specification (HTML, JSON, etc), or software tool (Cookiecutter, Docker, etc.).  The generated boilerplate is a basic directory tree and a starter set of software files that can then be used to begin building software targeting a particular software platform.
+The cookiecutter presented here, Cookiecutter Project, defines boilerplate templates for creating software projects.  The generated boilerplate is a basic directory tree and a starter set of software files that can then be used to begin building software targeting a particular software platform &mdash; a programming language (Python, Swift, etc.), file format specification (HTML, JSON, etc), or software tool (Cookiecutter, Docker, etc.).
 
 ## Getting Started
 
