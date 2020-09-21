@@ -2,8 +2,8 @@
 # =========================================================================== #
 # PROGRAM: Makefile
 # AUTHORS: {{cookiecutter.lead_name}}
-# CREATED: {{strftime('%d%b%Y', now)|upper}}
-# REVISED: {{strftime('%d%b%Y', now)|upper}}
+# CREATED: {{date.strftime('%d%b%Y', now)|upper}}
+# REVISED: {{date.strftime('%d%b%Y', now)|upper}}
 # =========================================================================== #
 
 
