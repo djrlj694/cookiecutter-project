@@ -1,8 +1,8 @@
 # Contributing Guidelines
 
-Version-controllable contributions toward improving [Cookiecutter Platform](README.md) (its source code, documentation, etc.) are welcome via GitHub's [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) process.  By submitting a pull request, you acknowledge and agree to the following:
+Version-controllable contributions toward improving [Cookiecutter Project](README.md) (its source code, documentation, etc.) are welcome via GitHub's [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) process.  By submitting a pull request, you acknowledge and agree to the following:
 
-1. You have the right to license your contribution to [djrlj694.dev](support@djrlj694.dev) and the Cookiecutter Platform project community;
+1. You have the right to license your contribution to [djrlj694.dev](support@djrlj694.dev) and the Cookiecutter Project project community;
 2. Your contributions are licensed under the [MIT](LICENSE) license.
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
