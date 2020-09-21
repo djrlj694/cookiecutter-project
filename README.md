@@ -1,4 +1,4 @@
-# Cookiecutter Platform
+# Cookiecutter Project
 
 A "cookiecutter" for generating software platform boilerplate.
 
@@ -11,19 +11,19 @@ A "cookiecutter" for generating software platform boilerplate.
 
 They can also facilitate, both manually and automatically, the run-time customization of the generated names and content.
 
-The cookiecutter presented here, Cookiecutter Platform, defines boilerplate templates for creating platform-focused software projects, where "platform" here loosely means a programming language (Python, Swift, etc.), file format specification (HTML, JSON, etc), or software tool (Cookiecutter, Docker, etc.).  The generated boilerplate is a basic directory tree and a starter set of software files that can then be used to begin building software targeting a particular software platform.
+The cookiecutter presented here, Cookiecutter Project, defines boilerplate templates for creating platform-focused software projects, where "platform" here loosely means a programming language (Python, Swift, etc.), file format specification (HTML, JSON, etc), or software tool (Cookiecutter, Docker, etc.).  The generated boilerplate is a basic directory tree and a starter set of software files that can then be used to begin building software targeting a particular software platform.
 
 ## Getting Started
 
 ### System Requirements
 
-Cookiecutter Platform supports the 3 major operating systems:
+Cookiecutter Project supports the 3 major operating systems:
 
 * Linux
 * macOS
 * Windows
 
-To use Cookiecutter Platform, the following software must first be installed on your system:
+To use Cookiecutter Project, the following software must first be installed on your system:
 
 * [Python](https://www.python.org/downloads/) 3.6, 3.7, 3.8, or PyPy3
 * [Cookiecutter](https://github.com/audreyr/cookiecutter) Python package 1.7.2 or higher
@@ -34,7 +34,7 @@ For info on installing any of the prerequisite software, go to the [official](ht
 
 ### Usage
 
-Cookiecutter Platform can generate boilerplate by running shell or Python scripts.  Furthermore, its cookiecutter can be sourced remotely via a direct download or locally via a cached copy from a prior download.
+Cookiecutter Project can generate boilerplate by running shell or Python scripts.  Furthermore, its cookiecutter can be sourced remotely via a direct download or locally via a cached copy from a prior download.
 
 #### Shell
 
@@ -46,19 +46,19 @@ To generate boilerplate from a shell's command-line interface (CLI), run the com
     # The following syntax options are semantically equivalent.
 
     # Option 1: URL
-    $ cookiecutter https://github.com/djrlj694/cookiecutter-platform.git
+    $ cookiecutter https://github.com/djrlj694/cookiecutter-project.git
 
     # Option 2: 'gh' prefix
-    $ cookiecutter gh:djrlj694/cookiecutter-platform
+    $ cookiecutter gh:djrlj694/cookiecutter-project
 
     # Option 3: 'git+ssh' prefix
-    $ cookiecutter git+ssh://git@github.com/djrlj694/cookiecutter-platform.git
+    $ cookiecutter git+ssh://git@github.com/djrlj694/cookiecutter-project.git
     ```
 
 * Local source:
 
     ```sh
-    $ cookiecutter cookiecutter-platform/
+    $ cookiecutter cookiecutter-project/
     ```
 
 ### Python
@@ -70,7 +70,7 @@ The Python library `cookiecutter.main` provides an application programming inter
     ```python
     from cookiecutter.main import cookiecutter
 
-    cookiecutter('https://github.com/djrlj694/cookiecutter-platform.git')
+    cookiecutter('https://github.com/djrlj694/cookiecutter-project.git')
     ```
 
 * Local source:
@@ -78,7 +78,7 @@ The Python library `cookiecutter.main` provides an application programming inter
     ```python
     from cookiecutter.main import cookiecutter
 
-    cookiecutter('cookiecutter-platform/')
+    cookiecutter('cookiecutter-project/')
     ```
 
 ## Builds and Testing
@@ -87,7 +87,7 @@ TODO: *Describe and show how to build artifacts and run tests.*
 
 ## Documentation
 
-Documentation for this project is pending but eventually will be found [here](https://djrlj694.github.io/cookiecutter-platform/).
+Documentation for this project is pending but eventually will be found [here](https://djrlj694.github.io/cookiecutter-project/).
 
 ## Known Issues
 
@@ -99,7 +99,7 @@ Code and codeless (documentation, donations, etc.) contributions are welcome. To
 
 ## License
 
-Cookiecutter Platform is released under the [MIT License](LICENSE).
+Cookiecutter Project is released under the [MIT License](LICENSE).
 
 ## References
 
