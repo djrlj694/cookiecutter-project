@@ -3,6 +3,7 @@
   "project_platform": [
     "unspecified",
     "Cookiecutter",
+    "make",
     "Python",
     "Swift"
   ],
